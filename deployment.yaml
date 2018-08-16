@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-image: https://hub.docker.com/r/pravalikakola/jq_test:latest
+image: pravalikakola/jq_test:latest
         # for local development against minikube registry
         #imagePullPolicy: Never        
         ports:
